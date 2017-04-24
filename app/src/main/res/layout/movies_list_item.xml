@@ -30,6 +30,7 @@
                 android:gravity="center_vertical"
                 android:textColor="@android:color/black"
                 android:maxLines="3"
+                android:ellipsize="end"
                 android:textSize="@dimen/text_size_18"
                 android:layout_toRightOf="@+id/poster_img"/>
 
@@ -54,6 +55,7 @@
                 android:id="@+id/date_lbl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_padding_10"
                 android:textSize="@dimen/text_size_15"
                 android:textColor="@android:color/darker_gray" />
 
